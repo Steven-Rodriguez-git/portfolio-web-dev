@@ -33,7 +33,7 @@ const NavBar = () => {
             className='tertiaryPalete'
             sx={{flexGrow: 1, mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            Steven Rodriguez
+            Steven Developer
           </Typography>
 
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
@@ -80,7 +80,7 @@ const NavBar = () => {
             className='tertiaryPalete'
             sx={{ flexGrow: 1,display: { xs: 'flex', md: 'none'}}}
           >
-            Steven Rodriguez
+            Steven Developer
           </Typography>
           <Box sx={{ flexGrow: 1, justifyContent:"flex-end", display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (

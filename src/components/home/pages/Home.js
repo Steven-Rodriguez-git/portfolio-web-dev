@@ -1,9 +1,11 @@
 import CenterHead from "../components/CenterHead";
+import CenterText from "../components/CenterText";
 
 const Home = () => {
     return (
     <div> 
         <CenterHead/>
+        <CenterText/>
       </div>
     );
   };
