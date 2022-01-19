@@ -1,3 +1,4 @@
+import React from 'react'
 import CenterHead from "../components/CenterHead";
 import CenterText from "../components/CenterText";
 

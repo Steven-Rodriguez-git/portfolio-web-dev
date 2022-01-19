@@ -2,8 +2,6 @@ import * as React from 'react';
 import "./NavBar.css";
 import {AppBar,Box,Toolbar,IconButton,Typography,Menu,MenuItem,Container,Button} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SettingsIcon from '@mui/icons-material/Settings';
 
 const pages = ['About Me', 'My Work', 'Contact'];
@@ -94,9 +92,6 @@ const NavBar = () => {
               </Button>
             ))}
           </Box>
-              
-          <LinkedInIcon className='secondaryPalete' style={{ padding:'5px'}}/>
-          <GitHubIcon className='secondaryPalete' style={{ padding:'5px'}}/>
           <SettingsIcon className='secondaryPalete' style={{ padding:'5px'}}/>
           
 

@@ -7,15 +7,19 @@ import Box from "@mui/material/Box";
 const CenterHead = () => {
   return (
     <React.Fragment>
-      <CssBaseline /> 
-        <Box className="background">
-          <h1 className="primaryText" style={{ paddingTop: "3rem" }}>
-            Always your best option for
+      <CssBaseline />
+      <Box className="background">
+        <h1 className="primaryText" style={{ paddingTop: "3rem" }}>
+          We're your best option for<br/>
             <span className="importantText">
-              <Typewriter loop typeSpeed={60} words={["Develop","Desing","Coding","Backend","Frontend"]} />
+              <Typewriter
+                loop
+                typeSpeed={60}
+                words={["Develop", "Desing", "Coding", "Backend", "Frontend"]}
+              />
             </span>
-          </h1>
-        </Box>
+        </h1>
+      </Box>
     </React.Fragment>
   );
 };
