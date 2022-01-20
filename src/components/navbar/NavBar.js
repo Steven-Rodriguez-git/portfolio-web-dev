@@ -93,8 +93,6 @@ const NavBar = () => {
             ))}
           </Box>
           <SettingsIcon className='secondaryPalete' style={{ padding:'5px'}}/>
-          
-
         </Toolbar>
       </Container>
     </AppBar>

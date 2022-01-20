@@ -24,7 +24,7 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 30px;
 `;
    
 export const Row = styled.div`
@@ -57,3 +57,4 @@ export const Heading = styled.p`
   margin-bottom: 40px;
   font-weight: bold;
 `;
+

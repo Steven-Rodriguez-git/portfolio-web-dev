@@ -1,0 +1,27 @@
+.skillBack{
+    padding:1vw 4vw 4vw;
+    background-color:#455a64 ;
+}
+
+.skillBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img{
+
+    height: 90px;
+    width: 90px;
+    position: relative;
+    border-radius: 45%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+}

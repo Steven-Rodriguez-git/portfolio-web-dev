@@ -1,10 +1,16 @@
-const About = () => {
-    return (
-    <div> 
-        <h1>Hola</h1>
-      </div>
-    );
-  };
-  
-  export default About;
-  
+import * as React from "react";
+import TextImage from "../components/TextImage";
+import Title from "../components/Title";
+import SkillSet from "../components/SkillSet"
+
+const AboutMe = () => {
+  return (
+    <div>
+      <Title />
+      <TextImage />
+      <SkillSet/>
+    </div>
+  );
+};
+
+export default AboutMe;

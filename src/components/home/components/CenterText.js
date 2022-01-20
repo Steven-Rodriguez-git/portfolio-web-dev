@@ -25,7 +25,7 @@ const CenterText = () => {
             I have experience <b>Desining & Developing</b> responsive, lovely & functional websites.
           </Typography>
           <Typography variant="h5">
-            I specialize in <b>Backend</b> development in <span className="blueText">Java</span> and <span className="blueText">Python</span> with knowledge in <b>Frontend</b> & <span className="blueText">React</span>.
+            I specialize in <b>Backend</b> development in <span className="blueText">Java</span> and <span className="blueText">Python</span> with <b>Frontend</b> in <span className="blueText">React</span>.
           </Typography>
         </Grid>
       </Container>
