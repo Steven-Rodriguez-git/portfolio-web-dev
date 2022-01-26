@@ -1,6 +1,7 @@
 .skillBack{
     padding:1vw 4vw 4vw;
-    background-color:#455a64 ;
+   background-image: url('../img/fogswiss.jpg' ) ;
+ 
 }
 
 .skillBox{
@@ -16,7 +17,7 @@
     width: 90px;
     position: relative;
     border-radius: 45%;
-    background-color: #fafafa;
+    background-color: #455a64;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -38,6 +38,22 @@ const SkillSet = () => {
             <Grid item xs>
               <SkillBox />
             </Grid>
+            <Grid item xs>
+              <SkillBox />
+            </Grid>
+            <Grid item xs>
+              <SkillBox />
+            </Grid>
+            <Grid item xs>
+              <SkillBox />
+            </Grid>
+            <Grid item xs>
+              <SkillBox />
+            </Grid>
+            <Grid item xs>
+              <SkillBox />
+            </Grid>
+           
           </Grid>
         </Grid>
       </Grid>
