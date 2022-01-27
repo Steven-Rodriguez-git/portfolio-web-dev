@@ -52,8 +52,7 @@ const SkillSet = () => {
             </Grid>
             <Grid item xs>
               <SkillBox />
-            </Grid>
-           
+            </Grid>         
           </Grid>
         </Grid>
       </Grid>
