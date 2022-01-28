@@ -1,30 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
 import "./SkillBox.css";
 import { Typography } from "@mui/material";
-import SpringLogo from "../img/spring-framework-icon.svg";
-import JavaLogo from "../img/java-icon.svg"
-const SkillBox = () => {
+
+const SkillBox = ({name,description,img}) => {
   return (
     <div className="card">
       <div id="card__inner" className="card__inner">
         <div className="card__face card__face--front">
-          <Typography variant="h4" style={{color:"#fff"}}>Java</Typography>
-          <img src={JavaLogo} alt="" className="img"></img>
+        <img src={img} alt="Languaje_Logo" className="imgFront"></img>
+          <Typography variant="h4" style={{color:"#fff"}}>{name}</Typography>
         </div>
         <div className="card__face card__face--back">
           <div className="card__contend">
             <div className="card__header">
-              <img src={SpringLogo} alt="" className="imgHeader"></img>
+              <img src={img} alt="Languaje_Logo" className="imgHeader"></img>
               <Typography variant="body1" className="headText">
-                <b>Spring boot.</b>
+                <b>{name}</b>
               </Typography>
             </div>
             <div className="card__body">
               <Typography variant="body1" className="cardBodyText">
                 <b>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                {description}
                 </b>
               </Typography>
             </div>
@@ -37,11 +34,12 @@ const SkillBox = () => {
 
 window.onload = function(){
 
-  const card = document.querySelector('.card__inner');
+const card = document.querySelectorAll('.card__inner');
 
-card.addEventListener('click', function(){
- card.classList.toggle('is-flipped');
-})
+function flipCard() {
+  this.classList.toggle('is-flipped');
+}
+card.forEach((card) => card.addEventListener("click", flipCard))
 }
 
 

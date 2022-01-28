@@ -15,7 +15,7 @@ const TextImage = () => {
         spacing={3}
       >
         <Grid item xs>
-          <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.jpg?itok=_3VnSPSl" width="100%"></img>
+          <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.jpg?itok=_3VnSPSl" alt="my_photo" width="100%"></img>
         </Grid>
         <Grid item xs>
           <Grid

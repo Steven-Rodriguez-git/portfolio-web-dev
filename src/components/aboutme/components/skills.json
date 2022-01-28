@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Java",
+    "description": "Java was the first language I learned, I have been working with him for 2+ years in web development and simple and small desktop applications. Maven/Spring/Hibernate.",
+    "img":"./img/java-icon.svg"
+  },
+  {
+    "id": 2,
+    "name": "Spring",
+    "description": "Spring is my main working tool in java. I have used it in backend develop of web pages based on microservices and monolithic. Spring Boot/Spring Cloud/Spring Data",
+    "img":"./img/spring-framework-icon.svg"
+  },
+  {
+    "id": 3,
+    "name": "Node Js",
+    "description": "I have been working for about a year with Node Js. Mainly in the development of API Rest using the MERN Stack for backend web develop. NodeJS+ExpressJS",
+    "img":"./img/node_icon.svg"
+  },
+  {
+    "id": 4,
+    "name": "React Js",
+    "description": "React is my main ally in frontend development. I use it developing beautiful, responsive and friendly interfaces with the help of libraries. Boostrap/MUI ",
+    "img":"./img/react_icon.svg"
+  },
+  {
+    "id": 5,
+    "name": "Web",
+    "description": "Although by preference I use libraries and frameworks. I also have knowledge in plain web development. HTML 5 / CSS / JavaScript",
+    "img":"./img/web_icon.png"
+  },
+  {
+    "id": 6,
+    "name": "Python",
+    "description": "I have basic knowledge in Python. I have used it in backend web development on REST APIs using Django and Flask also in small app development. Django/Flask",
+    "img":"./img/python_icon.svg"
+  },
+  {
+    "id": 7,
+    "name": "SQL DataBase",
+    "description": "I have participated in the connection and management of SQL databases. I have knowledge in CRUD operations, creation, design and visualization of tables. MySQL/Postgresql",
+    "img":"./img/mysql_icon.svg"
+  },
+  {
+    "id": 8,
+    "name": "NoSQL DB",
+    "description": "In my personal projects and study I have worked with non-relational databases. Especially with Mongo DB on the MERN stack. I have worked on its connection & management. ",
+    "img":"./img/mongodb_icon.svg"
+  },
+  {
+    "id":9,
+    "name": "Cloud",
+    "description": "Right now I am studying and improving my knowledge in cloud services, focusing on aws. I have participated in the deployment of applications on Heroku. AWS/ Heroku",
+    "img":"./img/aws_icon.svg"
+  },
+  {
+    "id":10,
+    "name": "Others",
+    "description": "",
+    "img":"./img/docker_icon.svg"
+  }
+]
