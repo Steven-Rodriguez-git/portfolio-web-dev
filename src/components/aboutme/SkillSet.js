@@ -1,9 +1,9 @@
 import React from "react";
-import "./SkillSet.css";
+import "../../styles/SkillSet.css";
 import { Typography } from "@mui/material";
 import SkillBox from "./SkillBox";
 import Grid from "@mui/material/Grid";
-import Skills from "./skills.json";
+import Skills from "../../data/skills.json";
 
 const SkillSet = () => {
   return (

@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./CenterText.css";
+import "../../styles/CenterText.css";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
 import { Typography } from "@mui/material";

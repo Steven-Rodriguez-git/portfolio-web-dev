@@ -18,10 +18,10 @@ import SettingsIcon from "@mui/icons-material/Settings";
 const pages = [
   {
     name: "About Me",
-    link: "/about",
+    link: "/aboutme",
   },
-  { name: "My Work", link: "/" },
-  { name: "Contact", link: "/" },
+  { name: "My Work", link: "/mywork" },
+  { name: "Contact", link: "/contact" },
 ];
 
 const NavBar = () => {

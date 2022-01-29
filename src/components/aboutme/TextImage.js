@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./TextImage.css";
+import "../../styles/TextImage.css";
 import Grid from "@mui/material/Grid";
 import { Typography } from "@mui/material";
 

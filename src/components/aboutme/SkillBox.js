@@ -1,5 +1,5 @@
 import React from "react";
-import "./SkillBox.css";
+import "../../styles/SkillBox.css";
 import { Typography } from "@mui/material";
 
 const SkillBox = ({name,description,img}) => {

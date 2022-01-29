@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./Title.css";
+import "../../styles/Title.css";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 

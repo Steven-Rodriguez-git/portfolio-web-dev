@@ -1,7 +1,7 @@
 import * as React from "react";
-import TextImage from "../components/TextImage";
-import Title from "../components/Title";
-import SkillSet from "../components/SkillSet"
+import Title from "../components/aboutme/Title";
+import TextImage from "../components/aboutme/TextImage";
+import SkillSet from "../components/aboutme/SkillSet"
 
 const AboutMe = () => {
   return (

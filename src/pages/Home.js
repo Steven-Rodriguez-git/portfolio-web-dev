@@ -1,6 +1,6 @@
 import React from 'react'
-import CenterHead from "../components/CenterHead";
-import CenterText from "../components/CenterText";
+import CenterHead from "../components/home/CenterHead";
+import CenterText from "../components/home/CenterText";
 
 const Home = () => {
     return (
