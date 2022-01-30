@@ -14,7 +14,7 @@ const TextImage = () => {
         alignItems="center"
         spacing={3}
       >
-        <Grid item xs>
+        <Grid item xs={12} md={6}>
           <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.jpg?itok=_3VnSPSl" alt="my_photo" width="100%"></img>
         </Grid>
         <Grid item xs>
@@ -26,7 +26,7 @@ const TextImage = () => {
             alignItems="center"
             spacing={3}
           >
-            <Grid item xs>
+            <Grid item xs={12} md={6}>
               <Typography variant="h3">
                 Who I am <span className="blueText">?</span>
               </Typography>

@@ -9,19 +9,21 @@ import {
   Menu,
   MenuItem,
   Container,
-  Button,
-  Link,
+  Button
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import SettingsIcon from "@mui/icons-material/Settings";
+import {Link} from "react-scroll" 
+
 
 const pages = [
   {
     name: "About Me",
-    link: "/aboutme",
+    link: "about",
   },
-  { name: "My Work", link: "/mywork" },
-  { name: "Contact", link: "/contact" },
+  {name:"Skills",link:"skills"},
+  { name: "My Work", link: "mywork" },
+  { name: "Contact", link: "contact" },
 ];
 
 const NavBar = () => {
@@ -38,17 +40,21 @@ const NavBar = () => {
     <AppBar className="primaryPalete">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Link href="/" style={{ textDecoration: 'none',color:"inherit" }} >
-            <Typography
+        <Link to="home" style={{ textDecoration: 'none',color:"inherit" }} smooth={true} duration={1000}>
+           <div>
+           <Typography
               variant="h6"
               noWrap
               component="div"
               className="tertiaryPalete"
+           
               sx={{ flexGrow: 1, mr: 2, display: { xs: "none", md: "flex" } }}
             >
               Steven Developer
             </Typography>
+           </div>        
           </Link>
+    
 
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -80,7 +86,7 @@ const NavBar = () => {
               }}
             >
               {pages.map((page) => (
-                <Link key={page.name}  href={page.link} style={{ textDecoration: 'none',color:"inherit" }}>
+                <Link key={page.name}  to={page.link} style={{ textDecoration: 'none',color:"inherit" }} smooth={true} duration={1000}  offset={-50}>
                   <MenuItem onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">{page.name}</Typography>
                   </MenuItem>
@@ -88,7 +94,7 @@ const NavBar = () => {
               ))}
             </Menu>
           </Box>
-          <Link href="/" style={{ textDecoration: 'none',color:"inherit" }}>
+          <Link to="home" style={{ textDecoration: 'none',color:"inherit" }} smooth={true} duration={1000}>
             <Typography
               variant="h6"
               noWrap
@@ -108,7 +114,7 @@ const NavBar = () => {
             }}
           >
             {pages.map((page) => (
-              <Link key={page.name} href={page.link} style={{ textDecoration: 'none',color:"inherit" }}>
+              <Link key={page.name} to={page.link} style={{ textDecoration: 'none',color:"inherit" }} smooth={true} duration={1000}  offset={-50}>
                 <Button
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, display: "block" }}

@@ -4,7 +4,7 @@ import CenterText from "../components/home/CenterText";
 
 const Home = () => {
     return (
-    <div> 
+    <div id="home"> 
         <CenterHead/>
         <CenterText/>
       </div>

@@ -1,10 +1,13 @@
 import React from "react";
-import FormContact from "../components/mywork/FormContact";
+import FormContact from "../components/contact/FormContact";
 
 const Contact = () => 
 {
     return(
-        <FormContact/>
+        <div id="contact">
+            <FormContact/>
+        </div>
+        
     );
 };
 

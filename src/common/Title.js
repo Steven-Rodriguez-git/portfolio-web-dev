@@ -1,15 +1,15 @@
 import * as React from "react";
-import "../../styles/Title.css";
+import "../styles/Title.css";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 
 
-const Title = () => {
+const Title = ({title}) => {
     return (
     <React.Fragment>
         <Box className="boxTitle">
         <Typography variant="h2">
-            About me<span className="blueText">!</span>
+            {title}<span className="blueText">!</span>
           </Typography>
       </Box>
     </React.Fragment>

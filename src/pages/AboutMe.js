@@ -1,14 +1,12 @@
 import * as React from "react";
-import Title from "../components/aboutme/Title";
+import Title from "../common/Title";
 import TextImage from "../components/aboutme/TextImage";
-import SkillSet from "../components/aboutme/SkillSet"
 
 const AboutMe = () => {
   return (
-    <div>
-      <Title />
+    <div id="about">
+      <Title title="About Me" />
       <TextImage />
-      <SkillSet/>
     </div>
   );
 };
