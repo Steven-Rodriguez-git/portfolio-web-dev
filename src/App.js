@@ -3,20 +3,19 @@ import "./App.css";
 import Home from "./pages/Home";
 import NavBar from "./common/navbar/NavBar";
 import Footer from "./common/footer/Footer";
-import AboutMe from "./pages/AboutMe";
-import MyWork from "./pages/MyWork";
-import Contact from "./pages/Contact";
-import Skills from "./pages/Skills"
+import { Routes, Route } from "react-router-dom";
+import ContactPage from "./pages/ContactForm/ContactPage";
+import Curriculum from "./pages/ContactForm/Curriculum";
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <AboutMe/>
-      <Skills/>
-      <MyWork />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="contact" element={<ContactPage />} />
+        <Route path="curriculum" element={<Curriculum/>}/>
+      </Routes>
       <Footer />
     </div>
   );
