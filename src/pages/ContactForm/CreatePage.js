@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Grid, TextField, Button, Typography, Link } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import EmailIcon from "@mui/icons-material/Email";
-const ContactPage = () => {
+const CreatePage = () => {
   const [values, setValues] = useState({
     name: "",
     email: "",
@@ -52,33 +51,23 @@ const ContactPage = () => {
           justifyContent="center"
           backgroundColor="#64a3ff"
         >
-
           <Grid item>
-            <Typography variant="h3">Work together</Typography>
+            <Typography variant="h3">Let's grow together</Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="h5">If you have an idea, we can make it come true</Typography>
           </Grid>
           <Link
-            href="https://wa.me/573209736442?text=Hello,%20Steven. I am interested in your work%20"
+            href="https://wa.me/573209736442?text=Hello,%20Steven. I want a page%20"
             target="_blank"
             underline="hover"
             color="inherit"
           >
-            <Grid item>
+            <Grid item 
+            marginTop="50px">
               <Typography variant="h6">
                 <WhatsAppIcon style={{ margin: "0px 10px" }} />
                 Get in touch with me
-              </Typography>
-            </Grid>
-          </Link>
-          <Link
-            href="/curriculum"
-            target="_blank"
-            underline="hover"
-            color="inherit"
-          >
-            <Grid item>
-              <Typography variant="h6">
-                <AccountCircleIcon style={{ margin: "0px 10px" }} />
-                Look at my resume
               </Typography>
             </Grid>
           </Link>
@@ -123,22 +112,12 @@ const ContactPage = () => {
           <Grid margin="5px">
             <TextField
               onChange={handleChange}
-              name="company"
-              id="filled-basic"
-              variant="filled"
-              label="Company"
-            />
-          </Grid>
-          <Grid margin="5px">
-            <TextField
-              onChange={handleChange}
               id="filled-multiline-static"
               label="Write your Message"
               multiline
               rows={4}
               variant="filled"
               name="message"
-              
             />
           </Grid>
 
@@ -153,4 +132,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default CreatePage;

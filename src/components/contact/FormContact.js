@@ -20,7 +20,7 @@ const FormContact = () => {
       >
         <Grid item>
           <Link
-            to="contact"
+            to="create"
             style={{ color: "inherit", textDecoration: "inherit" }}
           >
             <Typography variant="h3" style={{ color: "#fafafa" }}>

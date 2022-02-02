@@ -14,6 +14,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import SettingsIcon from "@mui/icons-material/Settings";
 import {Link} from "react-scroll" 
+import {Outlet} from 'react-router-dom'
 
 
 const pages = [
@@ -37,6 +38,7 @@ const NavBar = () => {
     setAnchorElNav(null);
   };
   return (
+    <div>
     <AppBar className="primaryPalete">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -132,6 +134,8 @@ const NavBar = () => {
         </Toolbar>
       </Container>
     </AppBar>
+    <Outlet />
+    </div>
   );
 };
 export default NavBar;
