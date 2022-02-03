@@ -1,15 +1,18 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { LangProvider } from "./context/LangContext";
 
 ReactDOM.render(
-  <BrowserRouter>
-  <App />
-</BrowserRouter>,
-  document.getElementById('root')
+  <LangProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </LangProvider>,
+  document.getElementById("root")
 );
 
 reportWebVitals();

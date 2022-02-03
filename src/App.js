@@ -10,22 +10,21 @@ import Curriculum from "./pages/ContactForm/Curriculum";
 import CreatePage from "./pages/ContactForm/CreatePage";
 
 function App() {
+
   return (
-    <div>
-      <Routes>
-        <Route element={<NavBar />}>
-          <Route path="/" element={<Home />} />
-        </Route>
-        <Route element={<SimpleNavBar />}>
-          <Route path="contact" element={<ContactPage />} />
-          <Route path="create" element={<CreatePage />} />
-          <Route path="curriculum" element={<Curriculum />} />
-        </Route>
-        
-      
-      </Routes>
-      <Footer />
-    </div>
+      <div>
+        <Routes>
+          <Route element={<NavBar />}>
+            <Route path="/" element={<Home />} />
+          </Route>
+          <Route element={<SimpleNavBar />}>
+            <Route path="contact" element={<ContactPage />} />
+            <Route path="create" element={<CreatePage />} />
+            <Route path="curriculum" element={<Curriculum />} />
+          </Route>
+        </Routes>
+        <Footer />
+      </div>
   );
 }
 
