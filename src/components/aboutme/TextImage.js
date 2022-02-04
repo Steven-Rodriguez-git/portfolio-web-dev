@@ -2,6 +2,7 @@ import * as React from "react";
 import "../../styles/TextImage.css";
 import Grid from "@mui/material/Grid";
 import { Typography } from "@mui/material";
+import { FormattedMessage } from "react-intl";
 
 const TextImage = () => {
   return (
@@ -28,28 +29,26 @@ const TextImage = () => {
           >
             <Grid item xs={12} md={6}>
               <Typography variant="h3">
-                Who I am <span className="blueText">?</span>
+              <FormattedMessage id="textImage.title"/>
               </Typography>
             </Grid>
             <Grid item xs>
               <Typography variant="h6">
                 <b>
-                  Hi, I'm <span className="blueText">Steven Rodriguez</span> and
-                  i'm a <span className="blueText">Web developer </span> born in
-                  Bogotá, Colombia. Since childhood I have been interested in
-                  the world of computers and programming
+                <FormattedMessage id="textImage.hi"/> <span className="blueText">Steven Rodriguez</span><FormattedMessage id="textImage.iam"/> <span className="blueText"> <FormattedMessage id="centerText.webdev"/> </span> 
+                <FormattedMessage id="textImage.head"/>
                 </b>
               </Typography>
             </Grid>
             <Grid item xs>
               <Typography variant="h6">
-                I am currently finishing my degree in <b>Systems Engineering</b> at the
-                <b> National University of Colombia</b>. I have approximately 1+ years of
-                experience in web development and design, I specialize in
-                <b> backend development in Java and Python</b> with the management of
-                microservices. However, I have also been in charge of <b>Frontend
-                development in React</b>. I am really passionate about <span className="blueText">web development</span>,<span className="blueText">videogames</span> and <span className="blueText">computer security</span>.
-              </Typography>
+              <FormattedMessage id="textImage.current"/><b><FormattedMessage id="textImage.degree"/></b>
+              <FormattedMessage id="atThe"/>
+                <b> <FormattedMessage id="textImage.unal"/></b>. 
+                <FormattedMessage id="textImage.experience"/>
+                <b>  <FormattedMessage id="textImage.backend"/></b><FormattedMessage id="textImage.micro"/> <b>
+                <FormattedMessage id="textImage.frontend"/></b><FormattedMessage id="textImage.passionate"/> <span className="blueText"><FormattedMessage id="textImage.about"/></span>
+              </Typography> 
             </Grid>
           </Grid>
         </Grid>

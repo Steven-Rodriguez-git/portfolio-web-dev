@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Java",
+      "description": "Java fue el primer lenguaje que aprendí, he trabajado con él durante 2+ años en desarrollo web y simples y pequeñas aplicaciones. Maven/Spring/Hibernate.",
+      "img":"./img/java-icon.svg"
+    },
+    {
+      "id": 2,
+      "name": "Spring",
+      "description": "Spring es mi principal herramienta en Java. La he usado en el desarrollo backend de páginas web basadas en microservicios y monolíticas. Spring Boot/Spring Cloud/Spring Data",
+      "img":"./img/spring-framework-icon.svg"
+    },
+    {
+      "id": 3,
+      "name": "Node Js",
+      "description": "He estado trabajando durante un año con Node Js. Principalmente en el desarrollo de API Rest usando el Stack MERN para desarrollo web Backend. NodeJS+ExpressJS",
+      "img":"./img/node_icon.svg"
+    },
+    {
+      "id": 4,
+      "name": "React Js",
+      "description": "React es mi principal aliado en desarrollo frontend. lo uso en la creación de lindas, responsivas y amigables interfaces con la ayuda de librerias. Boostrap/MUI ",
+      "img":"./img/react_icon.svg"
+    },
+    {
+      "id": 5,
+      "name": "Web",
+      "description": "Aunque por preferencia suelo usar librerias y frameworks. También tengo conocimiento en desarrollo web 'puro'. HTML 5 / CSS / JavaScript",
+      "img":"./img/web_icon.png"
+    },
+    {
+      "id": 6,
+      "name": "Python",
+      "description": "Tengo conocimientos básicos en Python. lo he usado en desarrollo web backend  de REST APIs usando Django y Flask también en pequeñas applicaciones. Django/Flask",
+      "img":"./img/python_icon.svg"
+    },
+    {
+      "id": 7,
+      "name": "SQL DataBase",
+      "description": "He participado en la conexión y manejo de bases de datos SQL. Conozco las operaciones CRUD, la creación, diseño y visualización de tablas. MySQL/Postgresql",
+      "img":"./img/mysql_icon.svg"
+    },
+    {
+      "id": 8,
+      "name": "NoSQL DB",
+      "description": "En mis proyectos personales y estudio he trabajado con bases de datos no-relacionales.Principalmente con Mongo DB en el Stack MERN. He trabajado en su conexión y manejo. ",
+      "img":"./img/mongodb_icon.svg"
+    },
+    {
+      "id":9,
+      "name": "Cloud",
+      "description": "Actualmente me encuentro estudiando y mejorando mis conocimientos en servicios en la nube, enfocandome en aws. He desplegado aplicaciones en Heroku. AWS/ Heroku",
+      "img":"./img/aws_icon.svg"
+    },
+    {
+      "id":10,
+      "name": "Others",
+      "description": "",
+      "img":"./img/docker_icon.svg"
+    }
+  ]
+  

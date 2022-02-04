@@ -3,6 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Typography } from "@mui/material";
+import { FormattedMessage } from "react-intl";
 import {
   Box,
   Container,
@@ -18,7 +19,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Column>
-            <Heading>Repository</Heading>
+            <Heading>  <FormattedMessage id="footer.repository"/></Heading>
             <FooterLink
               href="https://github.com/Steven-Rodriguez-git"
               target="_blank"
@@ -29,7 +30,7 @@ const Footer = () => {
   
           </Column>
           <Column>
-            <Heading>Contact Us</Heading>
+            <Heading> <FormattedMessage id="footer.contact"/></Heading>
             <FooterLink
               href="https://www.linkedin.com/in/steven-rodriguez-dev13/"
               target="_blank"
@@ -40,7 +41,7 @@ const Footer = () => {
             
           </Column>
           <Column>
-            <Heading>Social Media</Heading>
+            <Heading> <FormattedMessage id="footer.social"/></Heading>
             <FooterLink
               href="https://www.instagram.com/stevendev13/?hl=es"
               target="_blank"
@@ -55,7 +56,7 @@ const Footer = () => {
           variant="h7"
           style={{ textAlign: "center", color: "#fafafa" }}
         >
-          This page was developed using React & Material UI
+           <FormattedMessage id="footer.footer"/>
         </Typography>
         <Typography
           variant="h7"

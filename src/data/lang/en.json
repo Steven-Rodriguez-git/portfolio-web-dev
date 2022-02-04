@@ -1,4 +1,7 @@
 { 
+    "and":"and ",
+    "in":"in ",
+    "atThe":"at the ",
     "header.welcome":"We're your best option for",
     "centerText.name":"Hi, my name is ",
     "centerText.iam":"and I'm a",
@@ -6,5 +9,36 @@
     "centerText.based":"based in",
     "centerText.exp":" I have experience ",
     "centerText.desydev":" Desining & Developing",
-    "centerText.skills":" fast, secure & functional websites."
-}
+    "centerText.skills":" fast, secure & functional websites.",
+    "centerText.specialize":" I specialize in ",
+    "centerText.devin":"development in ",
+    "centerText.know":"with knowledge in ",
+    "textImage.title":"Who I am?",
+    "textImage.hi":"Hi, I'm",
+    "textImage.iam":" and I'm a ",
+    "textImage.head":" born in Bogotá, Colombia. Since childhood I have been interested in the world of computers and programming ",
+    "textImage.current":" I am currently finishing my degree in ",
+    "textImage.degree":" Systems Engineering ",
+    "textImage.unal":" National University of Colombia ",
+    "textImage.experience":"I have approximately 1+ years of experience in web development and design, I specialize in ",
+    "textImage.backend":"backend development in Java, Node JS and Python",
+    "textImage.micro":" with the management of microservices. However, I have also been working in the ",
+    "textImage.frontend":"Frontend development in React ",
+    "textImage.passionate":"I am really passionate about ",
+    "textImage.about":"Web development, Videogames and Computer security ",
+    "formContact.contact":" Contact me! ",
+    "formContact.hire":" Loking to hire? ",
+    "footer.repository":"Repository",
+    "footer.contact":"Contact Us",
+    "footer.social":"Social Media",
+    "footer.footer":"This page was developed using React & Material UI",
+    "contact.work":" Work together ",
+    "contact.touch":" Get in touch with me ",
+    "contact.resume":" Look at my resume ",
+    "contact.message":" Send us message",
+    "contact.button":" Send ",
+    "contact.client":" If you have an idea, we can make it come true ",
+    "contact.title":"Let's grow together" 
+    
+   
+} 

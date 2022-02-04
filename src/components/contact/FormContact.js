@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 
 import "../../styles/Contact.css";
 
@@ -24,7 +25,7 @@ const FormContact = () => {
             style={{ color: "inherit", textDecoration: "inherit" }}
           >
             <Typography variant="h3" style={{ color: "#fafafa" }}>
-              Contact me!
+           < FormattedMessage id="formContact.contact"/>
             </Typography>
             <img
               className="imageContact"
@@ -50,7 +51,7 @@ const FormContact = () => {
           style={{ color: "inherit", textDecoration: "inherit" }}
         >
           <Typography variant="h3" style={{ color: "#fafafa" }}>
-            Loking to hire?
+          < FormattedMessage id="formContact.hire"/>
           </Typography>
           <img
             className="imageContact"

@@ -8,7 +8,7 @@
   {
     "id": 2,
     "name": "Spring",
-    "description": "Spring is my main working tool in java. I have used it in backend develop of web pages based on microservices and monolithic. Spring Boot/Spring Cloud/Spring Data",
+    "description": "Spring is my main working tool in Java. I have used it in backend develop of web pages based on microservices and monolithic. Spring Boot/Spring Cloud/Spring Data",
     "img":"./img/spring-framework-icon.svg"
   },
   {
@@ -20,7 +20,7 @@
   {
     "id": 4,
     "name": "React Js",
-    "description": "React is my main ally in frontend development. I use it developing beautiful, responsive and friendly interfaces with the help of libraries. Boostrap/MUI ",
+    "description": " React is my main ally in frontend development. I use it developing beautiful, responsive and friendly interfaces with the help of libraries. Boostrap/MUI",
     "img":"./img/react_icon.svg"
   },
   {

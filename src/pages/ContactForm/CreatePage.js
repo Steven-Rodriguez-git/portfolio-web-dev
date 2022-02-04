@@ -3,6 +3,8 @@ import emailjs from "@emailjs/browser";
 import { Grid, TextField, Button, Typography, Link } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailIcon from "@mui/icons-material/Email";
+import { FormattedMessage } from "react-intl";
+
 const CreatePage = () => {
   const [values, setValues] = useState({
     name: "",
@@ -52,10 +54,14 @@ const CreatePage = () => {
           backgroundColor="#64a3ff"
         >
           <Grid item>
-            <Typography variant="h3">Let's grow together</Typography>
+            <Typography variant="h3">
+            <FormattedMessage id="contact.title"/>
+            </Typography>
           </Grid>
           <Grid item>
-            <Typography variant="h5">If you have an idea, we can make it come true</Typography>
+            <Typography variant="h5">
+            <FormattedMessage id="contact.client"/>
+            </Typography>
           </Grid>
           <Link
             href="https://wa.me/573209736442?text=Hello,%20Steven. I want a page%20"
@@ -63,11 +69,10 @@ const CreatePage = () => {
             underline="hover"
             color="inherit"
           >
-            <Grid item 
-            marginTop="50px">
+            <Grid item marginTop="50px">
               <Typography variant="h6">
                 <WhatsAppIcon style={{ margin: "0px 10px" }} />
-                Get in touch with me
+                <FormattedMessage id="contact.touch"/>
               </Typography>
             </Grid>
           </Link>
@@ -88,7 +93,7 @@ const CreatePage = () => {
           <Grid item margin="5px">
             <Typography variant="h6">
               <EmailIcon style={{ margin: "0px 10px" }} />
-              Send us message
+              <FormattedMessage id="contact.message"/>
             </Typography>
           </Grid>
           <Grid margin="5px">
@@ -123,7 +128,7 @@ const CreatePage = () => {
 
           <Grid>
             <Button variant="outlined" onClick={handleClick}>
-              Send
+            <FormattedMessage id="contact.button"/>
             </Button>
           </Grid>
         </Grid>

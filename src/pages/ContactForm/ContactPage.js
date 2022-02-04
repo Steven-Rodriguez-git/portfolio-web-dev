@@ -4,6 +4,7 @@ import { Grid, TextField, Button, Typography, Link } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import EmailIcon from "@mui/icons-material/Email";
+import { FormattedMessage } from "react-intl";
 const ContactPage = () => {
   const [values, setValues] = useState({
     name: "",
@@ -52,9 +53,8 @@ const ContactPage = () => {
           justifyContent="center"
           backgroundColor="#64a3ff"
         >
-
           <Grid item>
-            <Typography variant="h3">Work together</Typography>
+            <Typography variant="h3"><FormattedMessage id="contact.work"/></Typography>
           </Grid>
           <Link
             href="https://wa.me/573209736442?text=Hello,%20Steven. I am interested in your work%20"
@@ -65,7 +65,7 @@ const ContactPage = () => {
             <Grid item>
               <Typography variant="h6">
                 <WhatsAppIcon style={{ margin: "0px 10px" }} />
-                Get in touch with me
+                <FormattedMessage id="contact.touch"/>
               </Typography>
             </Grid>
           </Link>
@@ -78,7 +78,7 @@ const ContactPage = () => {
             <Grid item>
               <Typography variant="h6">
                 <AccountCircleIcon style={{ margin: "0px 10px" }} />
-                Look at my resume
+                <FormattedMessage id="contact.resume"/>
               </Typography>
             </Grid>
           </Link>
@@ -99,7 +99,7 @@ const ContactPage = () => {
           <Grid item margin="5px">
             <Typography variant="h6">
               <EmailIcon style={{ margin: "0px 10px" }} />
-              Send us message
+              <FormattedMessage id="contact.message"/>
             </Typography>
           </Grid>
           <Grid margin="5px">
@@ -138,13 +138,12 @@ const ContactPage = () => {
               rows={4}
               variant="filled"
               name="message"
-              
             />
           </Grid>
 
           <Grid>
             <Button variant="outlined" onClick={handleClick}>
-              Send
+            <FormattedMessage id="contact.button"/>
             </Button>
           </Grid>
         </Grid>
