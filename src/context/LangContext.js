@@ -1,27 +1,33 @@
 import React, { useState } from "react";
 import EnglishLang from "./../data/lang/en.json";
 import SpanishLang from "./../data/lang/es.json";
-import {IntlProvider} from "react-intl";
+import { IntlProvider } from "react-intl";
 
 const langContext = React.createContext();
 
 const LangProvider = ({ children }) => {
+  let localeDefault = "en";
+  let messageDefault = EnglishLang;
+  const languaje = localStorage.getItem("lang");
 
-  let localeDefault='en';
-  let messageDefault=EnglishLang;
-  const lang= localStorage.getItem('lang');
+  if (
+    window.navigator.language === "es-ES" ||
+    window.navigator.language === "es-CO" ||
+    window.navigator.language === "es-MX"||
+    window.navigator.language === "es" 
+  ) {
+    localeDefault = "es";
+    messageDefault = SpanishLang;
+  }
 
-  if(lang){
+  if (languaje) {
+    localeDefault = languaje;
 
-    localeDefault=lang;
-
-    if(lang==='es')
-    {
-      messageDefault= SpanishLang;
-    }
-    else{
-      localeDefault='en'
-      messageDefault= EnglishLang;
+    if (languaje === "es") {
+      messageDefault = SpanishLang;
+    } else {
+      localeDefault = "en";
+      messageDefault = EnglishLang;
     }
   }
 
@@ -30,21 +36,21 @@ const LangProvider = ({ children }) => {
 
   const setLang = () => {
     if (locale === "en") {
-      setLocale('es');
+      setLocale("es");
       setMessages(SpanishLang);
-      localStorage.setItem('lang','es')
+      localStorage.setItem("lang", "es");
     } else {
-      setLocale('en')
+      setLocale("en");
       setMessages(EnglishLang);
-      localStorage.setItem('lang','en')
+      localStorage.setItem("lang", "en");
     }
     window.location.reload();
   };
   return (
     <langContext.Provider value={{ setLang: setLang }}>
-        <IntlProvider locale={locale} messages={messages}>
+      <IntlProvider locale={locale} messages={messages}>
         {children}
-        </IntlProvider>
+      </IntlProvider>
     </langContext.Provider>
   );
 };
