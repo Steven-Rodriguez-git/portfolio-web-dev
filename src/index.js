@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter  as Router } from 'react-router-dom'
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
@@ -8,10 +8,10 @@ import { LangProvider } from "./context/LangContext";
 
 ReactDOM.render(
   <LangProvider>
-    <BrowserRouter>
+    <Router basename={process.env.PUBLIC_URL}>
       <App />
-    </BrowserRouter>
-  </LangProvider>,
+    </Router >
+  </LangProvider >,
   document.getElementById("root")
 );
 
