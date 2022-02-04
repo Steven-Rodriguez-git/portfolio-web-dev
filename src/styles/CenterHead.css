@@ -1,0 +1,64 @@
+@media (prefers-color-scheme: dark) {
+    .primaryPalete {
+      background-color: #718792 !important;
+    }
+  
+    .secondaryPalete {
+      color: #fafafa !important;
+    }
+  
+    .tertiaryPalete {
+      color: #edeff1 !important;
+    }
+  }
+
+  *{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+  }
+  @media (max-width: 1000px) {
+    .background{
+      height: 700px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .background{
+      height: 550px;
+    }
+  }
+
+  .background{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: no-repeat url( "/img/fogpicture.jpg");
+      background-position: center;
+    
+  }
+  
+  .primaryText {
+    color: #fafafa !important;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .secondaryText {
+    color: #455a64 !important;
+
+  }
+  
+  .importantText {
+    color: #0075eb!important;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 10px;  
+    text-shadow: 1px 1px 2px  #fafafa;
+    
+  }
+
+ 
+  

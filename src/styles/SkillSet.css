@@ -1,0 +1,11 @@
+.skillBack{
+    padding:1vw 4vw 4vw;
+   background-color: #000a12;
+}
+
+.skillBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
