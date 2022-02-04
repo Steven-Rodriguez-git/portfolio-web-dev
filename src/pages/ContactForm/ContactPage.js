@@ -54,7 +54,9 @@ const ContactPage = () => {
           backgroundColor="#64a3ff"
         >
           <Grid item>
-            <Typography variant="h3"><FormattedMessage id="contact.work"/></Typography>
+            <Typography variant="h3">
+              <FormattedMessage id="contact.work" />
+            </Typography>
           </Grid>
           <Link
             href="https://wa.me/573209736442?text=Hello,%20Steven. I am interested in your work%20"
@@ -65,7 +67,7 @@ const ContactPage = () => {
             <Grid item>
               <Typography variant="h6">
                 <WhatsAppIcon style={{ margin: "0px 10px" }} />
-                <FormattedMessage id="contact.touch"/>
+                <FormattedMessage id="contact.touch" />
               </Typography>
             </Grid>
           </Link>
@@ -78,7 +80,7 @@ const ContactPage = () => {
             <Grid item>
               <Typography variant="h6">
                 <AccountCircleIcon style={{ margin: "0px 10px" }} />
-                <FormattedMessage id="contact.resume"/>
+                <FormattedMessage id="contact.resume" />
               </Typography>
             </Grid>
           </Link>
@@ -99,7 +101,7 @@ const ContactPage = () => {
           <Grid item margin="5px">
             <Typography variant="h6">
               <EmailIcon style={{ margin: "0px 10px" }} />
-              <FormattedMessage id="contact.message"/>
+              <FormattedMessage id="contact.message" />
             </Typography>
           </Grid>
           <Grid margin="5px">
@@ -143,7 +145,7 @@ const ContactPage = () => {
 
           <Grid>
             <Button variant="outlined" onClick={handleClick}>
-            <FormattedMessage id="contact.button"/>
+              <FormattedMessage id="contact.button" />
             </Button>
           </Grid>
         </Grid>
