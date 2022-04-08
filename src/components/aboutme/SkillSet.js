@@ -6,6 +6,7 @@ import Grid from "@mui/material/Grid";
 import SkillsEn from "../../data/skillsEn.json";
 import SkillsEs from "../../data/skillsEs.json"
 
+
 const lang = localStorage.getItem("lang");
 
 let SkillLang = () => {
