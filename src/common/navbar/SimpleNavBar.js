@@ -1,13 +1,11 @@
-import React,{useContext} from "react";
+import React from "react";
 import "./NavBar.css";
 import { AppBar, Toolbar, Typography, Container, Link } from "@mui/material";
-import TranslateIcon from "@mui/icons-material/Translate";
 import { Outlet } from "react-router-dom";
-import { langContext } from "../../context/LangContext";
+
 
 
 const SimpleNavBar = () => {
-  const lang = useContext(langContext);
   return (
     <div>
       <AppBar className="primaryPalete">
@@ -26,11 +24,6 @@ const SimpleNavBar = () => {
                 </Typography>
               </div>
             </Link>
-            <TranslateIcon
-              className="secondaryPalete"
-              onClick={() => lang.setLang()}
-              style={{ padding: "2px", margin: "1px" }}
-            />
           </Toolbar>
         </Container>
       </AppBar>
