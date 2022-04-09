@@ -13,7 +13,7 @@ const SimpleNavBar = () => {
       <AppBar className="primaryPalete">
         <Container maxWidth="xl">
           <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
-            <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <Link href="/portfolio-web-dev/" style={{ textDecoration: "none", color: "inherit" }}>
               <div>
                 <Typography
                   variant="h6"

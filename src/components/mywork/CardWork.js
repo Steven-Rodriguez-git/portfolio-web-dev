@@ -40,7 +40,7 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
     backgroundColor: '#ffff',
     position: 'relative',
     [breakpoints.up('md')]: {
-      width: '100%',
+      width: '350%',
       marginLeft: spacing(-3),
       marginTop: 0,
       transform: 'translateX(-15px)',
@@ -82,18 +82,17 @@ export const CardWork = React.memo(function BlogCard() {
       />
       <CardContent>
       <Typography variant="h6" color="#0075eb">
-                <b>
-                DevCode
-                </b>
+      <FormattedMessage id="mywork.devcode" />
         </Typography>
-        <Typography variant="h7">
-                <b>
-                DevCode is a bshadhjasdjlasjd lorem ibshadhjasdjlasjd lorem i
-                </b>
+        <Typography variant="subtitle1">
+        <FormattedMessage id="mywork.devcodeDes" />
         </Typography>
-        <div>
-        <Button classes={chubbyStyles} style={{background:'linear-gradient(to right, #004bb8, #64a3ff)',color:"#fafafa",minWidth:"150px",margin:"10px 0px 10px"}}>Go to</Button>
-        <Button classes={chubbyStyles} style={{background:'linear-gradient(to right, #004bb8, #64a3ff)',color:"#fafafa",minWidth:"150px",margin:"10px 10px 10px"}}>GitHub</Button>
+        <Typography variant="subtitle2" color="#81d4fa">
+        <FormattedMessage id="mywork.devcodeEx" />
+        </Typography>
+        <div>   
+        <Button  href="https://devcodemisiontic.herokuapp.com" target="_blank" classes={chubbyStyles} style={{background:'linear-gradient(to right, #004bb8, #64a3ff)',color:"#fafafa",minWidth:"150px",margin:"10px 0px 10px"}}>Go to</Button>
+        <Button  href="https://github.com/Steven-Rodriguez-git/devCode" target="_blank" classes={chubbyStyles} style={{background:'linear-gradient(to right, #004bb8, #64a3ff)',color:"#fafafa",minWidth:"150px",margin:"10px 10px 10px"}}>GitHub</Button>
         </div>
         
         

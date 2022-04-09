@@ -21,9 +21,6 @@ const MyWork = () => {
         <Grid item xs={12} style={{ backgroundColor: "#fafafa", height: "600px" }}>
             <CardWork/>
         </Grid>
-        <Grid item xs={12} style={{ backgroundColor: "#fafafa", height: "600px" }}>
-            <CardWork/>
-        </Grid>
       </Grid>
     </div>
   );

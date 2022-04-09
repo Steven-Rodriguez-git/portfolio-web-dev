@@ -38,7 +38,9 @@
     "contact.message":" Send us message",
     "contact.button":" Send ",
     "contact.client":" If you have an idea, we can make it come true ",
-    "contact.title":"Let's grow together" 
-    
+    "contact.title":"Let's grow together",
+    "mywork.devcode":"DevCode",
+    "mywork.devcodeDes":"Devcode is a project Develop in the MERN Stack with the Scrum methodology in a group of 3 people and a Scrum master.  The purpose of the project is to be able to control a system of school projects with their respective monitoring and registration.",
+    "mywork.devcodeEx": "Test user: test@test.com '1234'"
    
 } 

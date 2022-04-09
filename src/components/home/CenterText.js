@@ -26,7 +26,7 @@ const CenterText = () => {
           <FormattedMessage id="centerText.exp"/><b> <FormattedMessage id="centerText.desydev"/></b><FormattedMessage id="centerText.skills"/> 
           </Typography>
           <Typography variant="h5">
-          <FormattedMessage id="centerText.specialize"/><b>Backend</b> <FormattedMessage id="centerText.devin"/><span className="blueText">Java, Node.Js </span> <FormattedMessage id="and"/> <span className="blueText">Python</span> <FormattedMessage id="centerText.know"/> <b>Frontend</b> <FormattedMessage id="in"/><span className="blueText">React</span>.
+          <FormattedMessage id="centerText.specialize"/><b>Backend</b> <FormattedMessage id="centerText.devin"/><span className="blueText">Java & Node.Js </span> <FormattedMessage id="centerText.know"/> <b>Frontend</b> <FormattedMessage id="in"/><span className="blueText">React</span>.
           </Typography>
         </Grid>
       </Container>
