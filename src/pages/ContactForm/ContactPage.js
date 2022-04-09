@@ -71,10 +71,12 @@ const ContactPage = () => {
               </Typography>
             </Grid>
           </Link>
+  
           <Link
-            href="./curriculum"
+            href="./Curriculum Steven Rodriguez.pdf"
             underline="hover"
             color="inherit"
+            download
           >
             <Grid item>
               <Typography variant="h6">
