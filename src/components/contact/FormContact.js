@@ -29,7 +29,7 @@ const FormContact = () => {
             </Typography>
             <img
               className="imageContact"
-              src="./portfolio-web-dev/img/creative.svg"
+              src="./img/creative.svg"
               alt=" Developer Vector http://www.freepik.com Designed by stories "
             />
           </Link>
@@ -55,7 +55,7 @@ const FormContact = () => {
           </Typography>
           <img
             className="imageContact"
-            src="./portfolio-web-dev/img/developer.svg"
+            src="./img/developer.svg"
             alt="Developer Create Vector http://www.freepik.com Designed by stories "
           />
         </Link>
