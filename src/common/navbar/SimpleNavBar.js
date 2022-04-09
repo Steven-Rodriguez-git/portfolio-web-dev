@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./NavBar.css";
 import { AppBar, Toolbar, Typography, Container, Link } from "@mui/material";
 import { Outlet } from "react-router-dom";
+import TranslateIcon from "@mui/icons-material/Translate";
+import { langContext } from "../../context/LangContext";
 
 
 
 const SimpleNavBar = () => {
+  const lang = useContext(langContext);
   return (
     <div>
       <AppBar className="primaryPalete">
         <Container maxWidth="xl">
           <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
-            <Link href="/portfolio-web-dev/" style={{ textDecoration: "none", color: "inherit" }}>
+            <Link href="/#/portfolio-web-dev/" style={{ textDecoration: "none", color: "inherit" }}>
               <div>
                 <Typography
                   variant="h6"
@@ -24,6 +27,11 @@ const SimpleNavBar = () => {
                 </Typography>
               </div>
             </Link>
+            <TranslateIcon
+              className="secondaryPalete"
+              onClick={() => lang.setLang()}
+              style={{ padding: "2px", margin: "1px" }}
+            />
           </Toolbar>
         </Container>
       </AppBar>

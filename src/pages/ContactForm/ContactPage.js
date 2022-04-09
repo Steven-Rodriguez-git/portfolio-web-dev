@@ -72,7 +72,8 @@ const ContactPage = () => {
             </Grid>
           </Link>
           <Link
-            href="/portfolio-web-dev/curriculum"
+            href="/#/portfolio-web-dev/curriculum"
+            target="_blank"
             underline="hover"
             color="inherit"
           >

@@ -77,7 +77,7 @@ export const CardWork = React.memo(function BlogCard() {
       <CardMedia
         className={styles.media}
         image={
-          'img/devcode.png'
+          'portfolio-web-dev/img/devcode.png'
         }
       />
       <CardContent>
